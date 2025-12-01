@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text.RegularExpressions;
-
-namespace AdventOfCode_2025.Day1
+﻿namespace AdventOfCode_2025.Day1
 {
 	public class Day1Part1(int startingValue)
 	{
