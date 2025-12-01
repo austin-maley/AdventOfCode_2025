@@ -14,7 +14,7 @@
 			List<string> input;
 			try
 			{
-				input = File.ReadAllLines("C:\\Users\\austin.maley\\Documents\\Advent of Code\\Puzzle_1_Input.txt").ToList();
+				input = File.ReadAllLines("Day1/Day1Input.txt").ToList();
 			}
 			catch (Exception e)
 			{

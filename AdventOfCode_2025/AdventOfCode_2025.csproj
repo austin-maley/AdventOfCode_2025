@@ -21,4 +21,11 @@
       <Folder Include="Day9\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Remove="Day1\Day1Input.txt" />
+      <Content Include="Day1\Day1Input.txt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
 </Project>
