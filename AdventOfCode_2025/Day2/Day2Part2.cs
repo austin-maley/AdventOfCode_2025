@@ -2,7 +2,7 @@ using System.Text.RegularExpressions;
 
 namespace AdventOfCode_2025.Day2;
 
-public partial class Day2Part1
+public partial class Day2Part2
 {
     private int _p1;
     private int _p2;
@@ -29,9 +29,10 @@ public partial class Day2Part1
 
     private void ProcessIds(long id1, long id2)
     {
+        Regex reg = MyRegex();
         while (id1 <= id2)
         {
-            if (HalvesMatch(id1.ToString()))
+            if (reg.Match(id1.ToString()).Success || HalvesMatch(id1.ToString()))
             {
                 Console.WriteLine(id1);
                 _runningTotal += id1;
