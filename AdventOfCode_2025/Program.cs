@@ -15,5 +15,8 @@ public static class Program
         
         Day2Part1 day2Part1 = new();
         day2Part1.Run();
+        
+        Day2Part2 day2Part2 = new();
+        day2Part2.Run();
     }
 }
