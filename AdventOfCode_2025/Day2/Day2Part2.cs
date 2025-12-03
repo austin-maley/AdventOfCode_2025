@@ -24,7 +24,7 @@ public partial class Day2Part2
             startingIndex = index;
         }
 
-        Console.WriteLine(nameof(Day2Part1) + " result: " + _runningTotal);
+        Console.WriteLine(nameof(Day2Part2) + " result: " + _runningTotal);
     }
 
     private void ProcessIds(long id1, long id2)
