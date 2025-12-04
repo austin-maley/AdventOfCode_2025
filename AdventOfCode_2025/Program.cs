@@ -1,6 +1,7 @@
 using AdventOfCode_2025.Day1;
 using AdventOfCode_2025.Day2;
 using AdventOfCode_2025.Day3;
+using AdventOfCode_2025.Day4;
 
 namespace AdventOfCode_2025;
 
@@ -23,7 +24,10 @@ public static class Program
         //Day3Part1 day3Part1 = new();
         //day3Part1.Run();
         
-        Day3Part2 day3Part2 = new();
-        day3Part2.Run();
+        //Day3Part2 day3Part2 = new();
+        //day3Part2.Run();
+        
+        Day4Part1 day4Part1 = new();
+        day4Part1.Run();
     }
 }
