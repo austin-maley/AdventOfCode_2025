@@ -27,7 +27,10 @@ public static class Program
         //Day3Part2 day3Part2 = new();
         //day3Part2.Run();
         
-        Day4Part1 day4Part1 = new();
-        day4Part1.Run();
+        //Day4Part1 day4Part1 = new();
+        //day4Part1.Run();
+        
+        Day4Part2 day4Part2 = new();
+        day4Part2.Run();
     }
 }
